@@ -1390,7 +1390,7 @@ export default function App() {
   const [viewMode, setViewMode] = useState<'list' | 'grid'>('list');
   const [search, setSearch] = useState('');
   const [selectedAsset, setSelectedAsset] = useState<Asset | null>(null);
-  const [editAsset, setEditAsset] = useState<Asset | null | 'new'>('new' as const | null);
+  const [editAsset, setEditAsset] = useState<Asset | null | 'new'>('new');
   const [showPanel, setShowPanel] = useState(false);
   const [showForm, setShowForm] = useState(false);
   const [page, setPage] = useState(1);
